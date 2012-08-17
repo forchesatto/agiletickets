@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="caelum144-11" name="br.com.caelum.agiletickets.controllers.EstabelecimentosControllerTest" tests="3" time="0.561" timestamp="2012-08-17T01:08:22">
+<testsuite errors="0" failures="0" hostname="caelum144-11" name="br.com.caelum.agiletickets.controllers.EstabelecimentosControllerTest" tests="3" time="0.537" timestamp="2012-08-17T01:54:01">
   <properties>
     <property name="file.encoding.pkg" value="sun.io" />
     <property name="ivy.retrieve.pattern.ivy.instance" value="/home/agil2791/workspace/agiletickets/lib/[artifact]-[revision](-[classifier]).[ext]" />
@@ -62,7 +62,7 @@
     <property name="ivy.resolve.default.type.filter.ivy.instance" value="*" />
     <property name="ant.project.default-target" value="war" />
     <property name="ivy.targets.copied" value="false" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner br.com.caelum.agiletickets.controllers.EstabelecimentosControllerTest filtertrace=true haltOnError=false haltOnFailure=true showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/agil2791/workspace/agiletickets/target/test-results/TEST-br.com.caelum.agiletickets.controllers.EstabelecimentosControllerTest.xml crashfile=/home/agil2791/workspace/agiletickets/junitvmwatcher381345062233619206.properties propsfile=/home/agil2791/workspace/agiletickets/junit8404679057184440530.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner br.com.caelum.agiletickets.controllers.EstabelecimentosControllerTest filtertrace=true haltOnError=false haltOnFailure=true showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/agil2791/workspace/agiletickets/target/test-results/TEST-br.com.caelum.agiletickets.controllers.EstabelecimentosControllerTest.xml crashfile=/home/agil2791/workspace/agiletickets/junitvmwatcher3010062924228920108.properties propsfile=/home/agil2791/workspace/agiletickets/junit2194399097168319626.properties" />
     <property name="ivy.shared.default.artifact.pattern" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
     <property name="ant.file" value="/home/agil2791/workspace/agiletickets/build.xml" />
     <property name="ivy.distrib.dir.ivy.instance" value="/home/agil2791/workspace/agiletickets/distrib" />
@@ -212,9 +212,9 @@
     <property name="ivy.buildlist.ivyfilepath" value="ivy.xml" />
     <property name="sun.arch.data.model" value="32" />
   </properties>
-  <testcase classname="br.com.caelum.agiletickets.controllers.EstabelecimentosControllerTest" name="naoDeveAdicionarEstabelecimentoSemNome" time="0.286" />
+  <testcase classname="br.com.caelum.agiletickets.controllers.EstabelecimentosControllerTest" name="deveAdicionarEstabelecimentoComNomeEEndereco" time="0.448" />
+  <testcase classname="br.com.caelum.agiletickets.controllers.EstabelecimentosControllerTest" name="naoDeveAdicionarEstabelecimentoSemNome" time="0.005" />
   <testcase classname="br.com.caelum.agiletickets.controllers.EstabelecimentosControllerTest" name="naoDeveAdicionarEstabelecimentoSemEndereco" time="0.003" />
-  <testcase classname="br.com.caelum.agiletickets.controllers.EstabelecimentosControllerTest" name="deveAdicionarEstabelecimentoComNomeEEndereco" time="0.188" />
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
