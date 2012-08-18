@@ -1,1 +1,6 @@
-<Context path="/agiletickets" />
+<?xml version="1.0"?>
+<Context 
+  docBase="agiletickets" 
+  path="/agiletickets" 
+  reloadable="true" 
+/>
